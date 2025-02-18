@@ -4,20 +4,23 @@ using UnityEngine;
 using TMPro;
 public class GameManager : MonoBehaviour
 {
-    private int score;
+    public BallThrow ballthrow;
     public TextMeshProUGUI scoreText;
+    private float score;
 
 
     // Start is called before the first frame update
     void Start()
     {
-        score = 0;
-        scoreText.text = "Score: " + score;
+        
+       
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+         score = ballthrow.getscoreTotal();
+
+         scoreText.text = "Score: " + score;
     }
 }
