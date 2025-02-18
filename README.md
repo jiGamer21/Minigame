@@ -26,4 +26,5 @@ link to the game in browser: https://jbidesign.itch.io/ball-throw
 **Dev Log**
 _Day 1_: created game concept
 _Day 3_: wrote the _FollowPlayer_ code
-_Day 5_
+_Day 4_: wrote the _GameManager_ code
+_day 7_:
